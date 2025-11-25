@@ -8,6 +8,7 @@ body{
 .life{
 	font-family: Helvetica;
 	color: ghostwhite;
+	width: auto;
 	font-size: 1000%;
 	font-weight: bolder;
 	position: absolute;
@@ -78,7 +79,7 @@ a:visited{
 .enter{
 	font-family: bastard;
 	position: absolute;
-	left: 25px;
+	left: 15%;
 	top: 700;
 	font-size: 600%;
 	color: green;
@@ -102,7 +103,7 @@ a:visited{
 }
 .deathcontainer{
 	background-color: black;
-	width: 430px;
+	width: 100%;
 }
 #life{
 	font-family: helvetica;
