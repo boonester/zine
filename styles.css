@@ -38,7 +38,7 @@ body{
 	height: 180px;
 	background-color: hotpink;
 	position: absolute;
-	left: 330px;
+	left: 275px;
 	z-index: -1;
 	top: -1;
 }
@@ -47,7 +47,7 @@ body{
 	height: 160px;
 	background-color: green;
 	position: absolute;
-	left: 300px;
+	left: 225px;
 	z-index: -2;
 	top: -1;
 }
@@ -70,6 +70,7 @@ body{
 }
 a{
 	text-decoration: none;
+	color: inherit;
 }
 a:visited{
 	color: inherit;
@@ -77,11 +78,29 @@ a:visited{
 .enter{
 	font-family: bastard;
 	position: absolute;
-	left: 70px;
+	left: 25px;
 	top: 700;
 	font-size: 600%;
 	color: green;
 	z-index: 3;
 	-webkit-text-stroke: 1px blue;
 	
+}
+.list1{
+	font-family:Helvetica;
+	font-weight: 700;
+	color: black;
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 400px;
+}
+.list2{
+	font-family: 'Times New Roman';
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+.deathcontainer{
+	background-color: black;
+	width: 430px;
 }
