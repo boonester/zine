@@ -104,3 +104,36 @@ a:visited{
 	background-color: black;
 	width: 430px;
 }
+#life{
+	font-family: helvetica;
+	font-weight: bolder;
+	color: black;
+	font-size: 1000%;
+	position: absolute;
+	right: 100px;
+}
+#header{
+	font-family: Helvetica;
+	font-weight: bolder;
+	color: black;
+	font-size: 300%;
+	position: absolute;
+	left: 200;
+	top: 200px;
+}
+#lifearticle{
+	font-family: helvetica;
+	font-size: 200%;
+	display: flex;
+
+
+}
+.matterof{
+	color: white;
+}
+#yhwh{
+	width: 70%;
+	position: absolute;
+	z-index: -1;
+	top: 180px;
+}
