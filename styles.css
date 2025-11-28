@@ -82,7 +82,7 @@ a:visited{
 	font-family: bastard;
 	position: absolute;
 	top: 40rem;
-	left: 3rem;
+	left: 2.5rem;
 	font-size: 600%;
 	color: green;
 	z-index: 3;
@@ -113,7 +113,7 @@ a:visited{
 	color: black;
 	font-size: 1000%;
 	position: absolute;
-	right: 100px;
+	right: 90px;
 }
 #header{
 	font-family: Helvetica;
