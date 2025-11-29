@@ -112,8 +112,9 @@ a:visited{
 	font-weight: bolder;
 	color: black;
 	font-size: 1000%;
+	display: inline;
 	position: absolute;
-	right: 90px;
+	right: 60px;
 }
 #header{
 	font-family: Helvetica;
@@ -127,7 +128,9 @@ a:visited{
 #lifearticle{
 	font-family: helvetica;
 	font-size: 200%;
+	display: block;
 	display: flex;
+	flex-wrap: wrap;
 
 
 }
@@ -137,10 +140,9 @@ a:visited{
 	position: absolute;
 }
 #yhwh{
-	width: 70%;
-	position: absolute;
+	width: 150%;
+	display: inline;
 	z-index: -1;
-	top: 180px;
 }
 .deaths{
 	background-color: black;
