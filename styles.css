@@ -3,7 +3,7 @@
 	src: url(JacquardaBastarda9-Regular.ttf);
 }
 body{
-	width: 60%;
+	/* width: 60%; */
 }
 .life{
 	font-family: Helvetica;
@@ -120,18 +120,18 @@ a:visited{
 	font-family: Helvetica;
 	font-weight: bolder;
 	color: black;
+	display: flex;
 	font-size: 300%;
 	position: absolute;
-	left: 200;
 	top: 200px;
+	margin: 10%;
 }
 #lifearticle{
 	font-family: helvetica;
 	font-size: 200%;
-	display: block;
 	display: flex;
 	flex-wrap: wrap;
-
+	margin: 10%;
 
 }
 .matterof{
@@ -139,14 +139,28 @@ a:visited{
 	font-style: italic;
 	position: absolute;
 }
-#yhwh{
-	width: 150%;
-	display: inline;
+.articlephoto{;
+	display: flex;
 	z-index: -1;
+}
+#yhwh.articlephoto{
+	width: 80%;
 }
 .deaths{
 	background-color: black;
 }
 .container{
 	width: 100%;
+}
+.content{
+	position: relative;
+	top: 10rem;
+	z-index: -1;
+}
+.nav{
+	position: sticky;
+	display: flex;
+	flex-direction: row;
+
+
 }
