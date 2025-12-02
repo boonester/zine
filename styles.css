@@ -199,3 +199,10 @@ a:visited{
 	top: 200px;
 	margin: 10%;
 }
+.cd{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width:100%;
+	height: auto;
+}
